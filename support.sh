@@ -11,12 +11,12 @@
   usermod -aG wheel melroy
   usermod -aG wheel terry
   usermod -aG wheel dalia
-  
+
 #copy pre created folder/file with public key to respective user
-cp /resources/julian/authorized_keys /home/julian/.ssh/authorized_keys
-cp /resources/melroy/authorized_keys /home/melroy/.ssh/authorized_keys
-cp /resources/terry/authorized_keys /home/terry/.ssh/authorized_keys
-cp /resources/dalia/authorized_keys /home/dalia/.ssh/authorized_keys
+cp /addsupport/julian/authorized_keys /home/julian/.ssh/authorized_keys
+cp /addsupport/melroy/authorized_keys /home/melroy/.ssh/authorized_keys
+cp /addsupport/terry/authorized_keys /home/terry/.ssh/authorized_keys
+cp /addsupport/dalia/authorized_keys /home/dalia/.ssh/authorized_keys
 
 #Change file / folder permissions
 chmod 700 /home/julian
