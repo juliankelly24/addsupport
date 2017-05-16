@@ -6,6 +6,12 @@
   sudo adduser terry
   sudo adduser dalia
 
+#Add users to wheel group
+  usermod -aG wheel julian
+  usermod -aG wheel melroy
+  usermod -aG wheel terry
+  usermod -aG wheel dalia
+  
 #copy pre created folder/file with public key to respective user
 cp /resources/julian/authorized_keys /home/julian/.ssh/authorized_keys
 cp /resources/melroy/authorized_keys /home/melroy/.ssh/authorized_keys
