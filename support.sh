@@ -19,10 +19,10 @@ sudo mkdir /home/terry/.ssh
 sudo mkdir /home/dalia/.ssh
 
 #copy pre created folder/file with public key to respective user
-sudo cp ./addsupport/julian/authorized_keys /home/julian/.ssh/authorized_keys
-sudo cp ./addsupport/melroy/authorized_keys /home/melroy/.ssh/authorized_keys
-sudo cp ./addsupport/terry/authorized_keys /home/terry/.ssh/authorized_keys
-sudo cp ./addsupport/dalia/authorized_keys /home/dalia/.ssh/authorized_keys
+sudo cp ./julian/authorized_keys /home/julian/.ssh/authorized_keys
+sudo cp ./melroy/authorized_keys /home/melroy/.ssh/authorized_keys
+sudo cp ./terry/authorized_keys /home/terry/.ssh/authorized_keys
+sudo cp ./dalia/authorized_keys /home/dalia/.ssh/authorized_keys
 
 #Change file / folder permissions
 sudo chmod 700 /home/julian
